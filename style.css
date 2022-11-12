@@ -14,9 +14,30 @@ body{
 figure{
     width: 50%;
 }
+figcaption{
+    width: 50%;
+}
 img{
     width: 100%;
 }
+.lists{
+    display: flex;
+    flex-direction: row; 
+}
+h3{
+    padding-left: 20%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+ol{
+    width: 60%;
+}
+li{
+    padding: .4rem;
+}  
 button{
     position: fixed;
     top: 2rem;
