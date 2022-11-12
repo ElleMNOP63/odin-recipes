@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+}
+figure{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+button{
+    position: fixed;
+    top: 2rem;
+    right: 4%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(80, 80, 117);
+    color: white;
+    padding: .2rem 1rem;
+}
+button:hover{
+    background-color: rgba(80, 80, 117, .8);
+    cursor: pointer;
+}
