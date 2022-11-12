@@ -1,21 +1,34 @@
 body{
     display: flex;
     flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .imgcont{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 95%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    width: 25%;
+   
 }
-figure{
-    width: 40%;
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 90%;
 }
 figcaption{
-    width: 60%;
+    padding: 1rem;
 }
 img{
     width: 100%;
@@ -51,4 +64,11 @@ button{
 button:hover{
     background-color: rgba(80, 80, 117, .8);
     cursor: pointer;
+}
+.recipes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
 }
