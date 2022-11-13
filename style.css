@@ -1,6 +1,10 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
     display: flex;
     flex-direction: column;
+    background-color: lightgrey;
 }
 .top{
     display: flex;
@@ -10,6 +14,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    text-decoration: underline;
+    color: rgb(109, 129, 109);
+  
 }
 .imgcont{
     display: flex;
@@ -71,4 +79,14 @@ button:hover{
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+a:hover{
+    color: rgb(79, 94, 79);
+    border: solid;
 }
